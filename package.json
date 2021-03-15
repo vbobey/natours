@@ -4,7 +4,7 @@
     "description": "Styling practice from advanced CSS and Sass cource: Part 1 - Natours project",
     "main": "index.js",
     "scripts": {
-        "compile:sass": "node-sass sass/main.scss css/style.css"
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
     },
     "repository": {
         "type": "git",
