@@ -7,8 +7,14 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     transition: transform .3s;
 
+    @include respond(tab-land) {
+        padding: 2rem;
+        min-height: 31rem;
+    }
+
     @include respond(tab-port) {
         padding: 2rem;
+        min-height: 25rem;
     }
 
     &__icon {
